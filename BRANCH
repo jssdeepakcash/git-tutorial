@@ -1,0 +1,14 @@
+#see list of branch
+   git branch 
+#create new branch 
+   git branch <branch name>
+#switch to another branch and check it out into your working directory
+   git checkout <branch name>
+#delete branch 
+   git branch -d <branch name> 
+   git branch -D <branch name>   ---->forcefully
+#merge branch 
+   git merge <branch name>
+#to verify the merge use git log, all commit shows
+#conflict --> when same file having diffrent content in a diffrent branches if you merge than confict occur 
+   vi <file_name> and edit 
