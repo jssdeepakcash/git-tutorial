@@ -1,0 +1,9 @@
+#unstage a file while retaining the changes in working directory
+  git reset <file_name>
+  git reset ----->all 
+  git reset HEAD~1   ----> commited changes 
+  git reset <commit hash>
+#clear staging area, rewrite working tree from specified commit
+  git reset --hard [commit]
+#git revert is use after commit 
+  git revert <commit i.d>
