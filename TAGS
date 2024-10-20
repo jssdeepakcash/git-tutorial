@@ -1,0 +1,5 @@
+#allow meaningfull name 
+git tag -a <tag_name> -m "massage" <commit_id>
+git tag ------> to see the list 
+git show <tag_name>    -------> to see perticular commit
+git tag -d <tag name>    ------> delete tag 
