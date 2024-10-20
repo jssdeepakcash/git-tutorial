@@ -1,2 +1,2 @@
 # git-tutorial
-git and girhub complete commands 
+git and github complete commands 
