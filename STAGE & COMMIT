@@ -1,0 +1,22 @@
+#show modified files in working directory, staged for your next commit
+   git status
+#add a file as it looks now to your next commit (stage)
+   git add <file_name>    or 
+   git add . (all untrack file)
+#commit your staged content as a new commit snapshot
+   git commit -m “message”
+#show all commits in the current branch’s history
+   git log
+#show commit
+   git log <commit id>
+   git log -1    ----->last commit
+   git log -2    -----> last 2 commit
+   git log --oneline -----> all commit 
+#diff of what is changed but not staged
+   git diff
+#add a git URL as an alias
+   git remote add origin <git url>
+#Transmit local branch commits to the remote repository branch
+   git push <alias> <branch>
+#fetch and merge any commits from the tracking remote branch
+   git pull
