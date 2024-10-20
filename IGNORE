@@ -1,0 +1,7 @@
+#create hidden file .gitignoreand enter file format which you want to be ignore .
+   vi .gitignore 
+#enter extension 
+   * .css
+   * .java
+git add .gitignore 
+git commit -m "ignore commit"
